@@ -56,3 +56,26 @@ section.primeira > article > p {
     color: white;
 }
 
+section.segunda > article {
+    margin: 10vh auto;
+    text-align: center;
+}
+
+section.segunda > article > p {
+    margin-top: 3vh;
+}
+
+div.container {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-flow: row wrap;
+}
+
+div.item {
+    background-color: lightgray;
+    width: 280px;
+    height: 200px;
+}
+
