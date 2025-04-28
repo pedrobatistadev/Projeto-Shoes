@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+header > p {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Main será estilizado aqui - Pedro Batista 28/04 */ 
+
+section.primeira {
+    background-image: url(../imagens/michael-jordan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+}
+
+article {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+article > div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+article > div > p {
+    color: white;
+}
+
+article > h2 {
+    margin-bottom: 10px;
+}
+
+article > p {
+    color: white;
+}
+
+article > h2 {
+    color: white;
+}
