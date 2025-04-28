@@ -79,3 +79,10 @@ div.item {
     height: 200px;
 }
 
+div.um {
+    background-image: url(../imagens/air-jordan-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+}
+
