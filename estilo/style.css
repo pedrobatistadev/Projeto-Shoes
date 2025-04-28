@@ -30,31 +30,29 @@ section.primeira {
     position: relative;
 }
 
-article {
+section.primeira > article {
     position: absolute;
     left: 25%;
     top: 30%;
 }
 
-article > div {
+section.primeira > article > div {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     margin-bottom: 10px;
 }
 
-article > div > p {
+section.primeira > article > div > p {
     color: white;
 }
 
-article > h2 {
+section.primeira > article > h2 {
     margin-bottom: 10px;
-}
-
-article > p {
     color: white;
 }
 
-article > h2 {
+section.primeira > article > p {
     color: white;
 }
+
