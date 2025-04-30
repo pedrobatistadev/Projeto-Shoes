@@ -26,7 +26,6 @@ header > div.img {
     background-position: center center;
     background-size: cover;
     position: relative;
-    width: 98vw;
     align-items: center;
 }
 
@@ -38,7 +37,7 @@ div.conteudo > div {
 
 header > div.img > div.conteudo {
     color: white;
-    width: 360px;
+    max-width: 360px;
     position: absolute;
     left: 20%;
     top: 30%;
@@ -53,7 +52,7 @@ div.conteudo > h2 {
 /*----------------------------------------------------------*/
 
 section.primeira > div.titulo {
-    width: 420px;
+    max-width: 420px;
     margin: auto;
     padding-top: 8vh;
     text-align: center;
