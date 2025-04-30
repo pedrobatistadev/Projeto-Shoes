@@ -26,7 +26,8 @@ header > div.img {
     background-position: center center;
     background-size: cover;
     position: relative;
-    width: 99vw;
+    width: 98vw;
+    align-items: center;
 }
 
 div.conteudo > div {
