@@ -38,7 +38,7 @@ header > div.img > div.conteudo {
     color: white;
     width: 360px;
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 30%;
 }
 
@@ -79,7 +79,6 @@ div.titulo > h1 {
     background-color: rgba(211, 211, 211, 0.616);
     width: 340px;
     height: 220px;
-    margin: auto;
 }
 
 .um {
@@ -105,4 +104,48 @@ div.titulo > h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 75%;
+}
+
+.responsa {
+    margin: auto;
+}
+
+.quatro {
+    background-image: url(../imagens/air-jordan-4.png);    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
+
+.cinco {
+    background-image: url(../imagens/air-jordan-5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
+
+.seis {
+    background-image: url(../imagens/air-jordan-6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
+
+footer {
+    margin-top: 10vh;
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > p {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
