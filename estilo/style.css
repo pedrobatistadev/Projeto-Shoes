@@ -59,3 +59,50 @@ section.primeira > div.titulo {
 div.titulo > h1 {
     margin-bottom: 10px;
 }
+
+/*-------------------------------------------------------------*/
+
+.auto {
+    max-width: 1101px;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+.conteiner {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.item {
+    background-color: rgba(211, 211, 211, 0.616);
+    width: 340px;
+    height: 220px;
+    margin: auto;
+}
+
+.um {
+    background-image: url(../imagens/air-jordan-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
+
+.info_um > p {
+    margin-top: 1vh;
+}
+
+.dois {
+    background-image: url(../imagens/air-jordan-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
+
+.tres {
+    background-image: url(../imagens/air-jordan-3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
