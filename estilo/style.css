@@ -26,7 +26,6 @@ header > div.img {
     background-position: center center;
     background-size: cover;
     position: relative;
-    width: 100vw;
 }
 
 div.conteudo > div {
@@ -39,8 +38,9 @@ header > div.img > div.conteudo {
     color: white;
     width: 360px;
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: 30%;
+    margin: auto;
 }
 
 div.conteudo > h2 {
